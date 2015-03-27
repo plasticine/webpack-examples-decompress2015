@@ -4,7 +4,7 @@ module.exports = {
     entry_b: './src/EntryB'
   },
   output: {
-    filename: './build/[name].js'
+    filename: './build/[name].[hash].js'
   },
   module: {
     loaders: [
