@@ -1,15 +1,17 @@
 module.exports = {
-  entry: './src',
+  entry: {
+    entry_a: './src/EntryA',
+    entry_b: './src/EntryB'
+  },
   output: {
-    filename: './build/main.js'
+    filename: './build/[name].js'
   },
   module: {
     loaders: [
-      { test: /\.coffee$/, loader: 'coffee-loader' },
       { test: /\.jsx?$/, loader: 'babel-loader' }
     ]
   },
-  // resolve: {
-  //   extensions: ['', '.js', '.coffee'],
-  // },
+  resolve: {
+    extensions: ['', '.js'],
+  },
 }
