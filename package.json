@@ -1,0 +1,14 @@
+{
+  "name": "webpack-examples-decompress2015",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.7.3"
+  }
+}
